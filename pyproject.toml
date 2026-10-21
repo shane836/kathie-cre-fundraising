@@ -1,0 +1,9 @@
+[project]
+name = "kathie-revops"
+version = "0.1.0"
+description = "Slack lead capture, conservative screening, and messaging experiments"
+requires-python = ">=3.12,<3.15"
+dependencies = ["slack-bolt>=1.21,<2", "python-dotenv>=1,<2"]
+
+[tool.uv]
+package = false

@@ -1,0 +1,6 @@
+{
+  "display_information": {"name": "Kathie", "description": "Lead screening and draft messaging", "background_color": "#223344"},
+  "features": {"app_home": {"home_tab_enabled": true, "messages_tab_enabled": true, "messages_tab_read_only_enabled": false}, "bot_user": {"display_name": "Kathie", "always_online": false}, "slash_commands": [{"command": "/kathie", "description": "Capture leads, screen lists, and draft messaging", "usage_hint": "home | capture | import | suppressions | screen | results | experiment", "should_escape": true}]},
+  "oauth_config": {"scopes": {"bot": ["commands", "chat:write", "im:write"]}},
+  "settings": {"event_subscriptions": {"bot_events": ["app_home_opened"]}, "interactivity": {"is_enabled": true}, "socket_mode_enabled": true, "org_deploy_enabled": false}
+}

@@ -1,0 +1,191 @@
+[
+  {
+    "id": "acquired",
+    "firstName": "Alex",
+    "lastName": "Acquired",
+    "email": "",
+    "companyWebsite": "example.com",
+    "profileUrl": "https://example.org/profiles/acquired",
+    "audience": {
+      "checks": {
+        "location": true,
+        "tech_employment": true,
+        "school": true,
+        "engagement": true
+      }
+    },
+    "fixture_email": "acquired@example.com",
+    "fixture_verification": "valid",
+    "fixture_attio": false,
+    "fixture_relationship": "",
+    "expected_status": "eligible"
+  },
+  {
+    "id": "attio",
+    "firstName": "Taylor",
+    "lastName": "Attio",
+    "email": "attio@example.com",
+    "companyWebsite": "example.com",
+    "profileUrl": "https://example.org/profiles/attio",
+    "audience": {
+      "checks": {
+        "location": true,
+        "tech_employment": true,
+        "school": true,
+        "engagement": true
+      }
+    },
+    "fixture_email": "attio@example.com",
+    "fixture_verification": "valid",
+    "fixture_attio": true,
+    "fixture_relationship": "",
+    "expected_status": "blocked"
+  },
+  {
+    "id": "asana",
+    "firstName": "Sam",
+    "lastName": "Asana",
+    "email": "asana@example.com",
+    "companyWebsite": "example.com",
+    "profileUrl": "https://example.org/profiles/asana",
+    "audience": {
+      "checks": {
+        "location": true,
+        "tech_employment": true,
+        "school": true,
+        "engagement": true
+      }
+    },
+    "fixture_email": "asana@example.com",
+    "fixture_verification": "valid",
+    "fixture_attio": false,
+    "fixture_relationship": "",
+    "expected_status": "blocked"
+  },
+  {
+    "id": "catchall",
+    "firstName": "Casey",
+    "lastName": "Catchall",
+    "email": "catchall@example.com",
+    "companyWebsite": "example.com",
+    "profileUrl": "https://example.org/profiles/catchall",
+    "audience": {
+      "checks": {
+        "location": true,
+        "tech_employment": true,
+        "school": true,
+        "engagement": true
+      }
+    },
+    "fixture_email": "catchall@example.com",
+    "fixture_verification": "accept_all",
+    "fixture_attio": false,
+    "fixture_relationship": "",
+    "expected_status": "held"
+  },
+  {
+    "id": "missing",
+    "firstName": "Morgan",
+    "lastName": "Missing",
+    "email": "",
+    "companyWebsite": "example.com",
+    "profileUrl": "https://example.org/profiles/missing",
+    "audience": {
+      "checks": {
+        "location": true,
+        "tech_employment": true,
+        "school": true,
+        "engagement": true
+      }
+    },
+    "fixture_email": "",
+    "fixture_verification": "valid",
+    "fixture_attio": false,
+    "fixture_relationship": "",
+    "expected_status": "held"
+  },
+  {
+    "id": "warm",
+    "firstName": "Jamie",
+    "lastName": "Warm",
+    "email": "warm@example.com",
+    "companyWebsite": "example.com",
+    "profileUrl": "https://example.org/profiles/warm",
+    "audience": {
+      "checks": {
+        "location": true,
+        "tech_employment": true,
+        "school": true,
+        "engagement": true
+      }
+    },
+    "fixture_email": "warm@example.com",
+    "fixture_verification": "valid",
+    "fixture_attio": false,
+    "fixture_relationship": "warm",
+    "expected_status": "blocked"
+  },
+  {
+    "id": "ambient",
+    "firstName": "Jordan",
+    "lastName": "Ambient",
+    "email": "ambient@example.com",
+    "companyWebsite": "example.com",
+    "profileUrl": "https://example.org/profiles/ambient",
+    "audience": {
+      "checks": {
+        "location": true,
+        "tech_employment": true,
+        "school": true,
+        "engagement": true
+      }
+    },
+    "fixture_email": "ambient@example.com",
+    "fixture_verification": "valid",
+    "fixture_attio": false,
+    "fixture_relationship": "ambient",
+    "expected_status": "blocked"
+  },
+  {
+    "id": "mismatch",
+    "firstName": "Drew",
+    "lastName": "Mismatch",
+    "email": "mismatch@example.com",
+    "companyWebsite": "example.com",
+    "profileUrl": "https://example.org/profiles/mismatch",
+    "audience": {
+      "checks": {
+        "location": false,
+        "tech_employment": true,
+        "school": true,
+        "engagement": true
+      }
+    },
+    "fixture_email": "mismatch@example.com",
+    "fixture_verification": "valid",
+    "fixture_attio": false,
+    "fixture_relationship": "",
+    "expected_status": "blocked"
+  },
+  {
+    "id": "unverified",
+    "firstName": "Robin",
+    "lastName": "Unverified",
+    "email": "unverified@example.com",
+    "companyWebsite": "example.com",
+    "profileUrl": "https://example.org/profiles/unverified",
+    "audience": {
+      "checks": {
+        "location": true,
+        "tech_employment": true,
+        "school": null,
+        "engagement": true
+      }
+    },
+    "fixture_email": "unverified@example.com",
+    "fixture_verification": "valid",
+    "fixture_attio": false,
+    "fixture_relationship": "",
+    "expected_status": "eligible"
+  }
+]
