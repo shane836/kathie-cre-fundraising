@@ -1,6 +1,6 @@
 # Kathie RevOps
 
-Slack-based lead capture, cold-outreach screening, and editable messaging tests for the Osage raise.
+Slack-based lead capture, cold-outreach screening, and editable messaging tests for the fund raising.
 
 This first release saves contacts and drafts. Campaign creation, live email sending, automated follow-ups, reply ingestion, and outreach reports are the next milestone. Meetings, decks, investor-portal steps, and funding remain manual.
 
